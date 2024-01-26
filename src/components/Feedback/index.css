@@ -1,0 +1,110 @@
+/* Write your CSS code here. */
+
+.feedback-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.feedback-card-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+}
+.feedback-question-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  padding: 20px;
+}
+.question {
+  text-align: center;
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.emojis-list {
+  display: flex;
+}
+.emoji-con {
+  list-style-type: none;
+}
+.emoji-btn {
+  background-color: transparent;
+  border-width: 0;
+  margin-right: 30px;
+}
+.image-emoji {
+  height: 30px;
+  width: 30px;
+}
+.name {
+  font-size: 8px;
+}
+.feedback-greeting-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.love-emoji {
+  height: 50px;
+  width: 60px;
+}
+.greeting {
+  color: #0f172a;
+  font-size: 25px;
+}
+.description {
+  color: #1e293b;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback-card-container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 700px;
+  }
+  .question {
+    font-size: 30px;
+  }
+  .image-emoji {
+    height: 80px;
+    width: 80px;
+  }
+  .emoji-btn {
+    margin-right: 50px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .love-emoji {
+    height: 100px;
+    width: 110px;
+    margin-bottom: 20px;
+  }
+  .greeting{
+    font-size: 35px;
+  }
+  .description{
+    font-size: 26px;
+  
+  }
+}
